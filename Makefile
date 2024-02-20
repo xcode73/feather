@@ -40,21 +40,20 @@ uninstall:
 	rm ./app
 
 # =====================================================================
-# 	dev
+# 	test-dev
 # =====================================================================
 
-
-dev:
+test-dev:
 	cd .. && \
-	git clone --branch dev https://github.com/FeatherCMS/feather-core && \
-	git clone --branch dev https://github.com/FeatherCMS/user-module && \
-	git clone --branch dev https://github.com/FeatherCMS/web-module && \
-	git clone --branch dev https://github.com/FeatherCMS/analytics-module && \
-	git clone --branch dev https://github.com/FeatherCMS/aggregator-module && \
-	git clone --branch dev https://github.com/FeatherCMS/blog-module && \
-	git clone --branch dev https://github.com/FeatherCMS/markdown-module && \
-	git clone --branch dev https://github.com/FeatherCMS/redirect-module && \
-	git clone --branch dev https://github.com/FeatherCMS/swifty-module && \
+	git clone --branch test-dev https://github.com/xcode73/feather-core && \
+	git clone --branch test-dev https://github.com/xcode73/user-module && \
+	git clone --branch test-dev https://github.com/xcode73/web-module && \
+	git clone --branch test-dev https://github.com/xcode73/analytics-module && \
+	git clone --branch test-dev https://github.com/xcode73/aggregator-module && \
+	git clone --branch test-dev https://github.com/xcode73/blog-module && \
+	git clone --branch test-dev https://github.com/xcode73/markdown-module && \
+	git clone --branch test-dev https://github.com/xcode73/redirect-module && \
+	git clone --branch test-dev https://github.com/xcode73/swifty-module && \
 	cd feather
 
 update:
