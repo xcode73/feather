@@ -20,9 +20,9 @@ let package = Package(
         .package(url: "https://github.com/xcode73/web-module", .branch("test-dev")),
         .package(url: "https://github.com/xcode73/redirect-module", .branch("test-dev")),
 
-        .package(url: "https://github.com/vapor/fluent-sqlite-driver", from: "4.0.0"),
-        .package(url: "https://github.com/binarybirds/liquid-local-driver", from: "1.3.0"),
-        .package(url: "https://github.com/binarybirds/mail-aws-driver", from: "0.0.1"),
+        .package(url: "https://github.com/vapor/fluent-sqlite-driver", from: "4.6.0"),
+        .package(url: "https://github.com/binarybirds/liquid-local-driver", from: "1.3.2"),
+        .package(url: "https://github.com/binarybirds/mail-aws-driver", from: "0.0.2"),
     ],
     targets: [
         .executableTarget(name: "App", dependencies: [

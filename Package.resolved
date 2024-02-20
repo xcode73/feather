@@ -69,8 +69,8 @@
         "repositoryURL": "https://github.com/vapor/fluent-kit.git",
         "state": {
           "branch": null,
-          "revision": "3c06388997a1ee72e97bcd752aff47d5b64722f5",
-          "version": "1.23.2"
+          "revision": "bb47433520116b3cf7f3567137c81106b398b77e",
+          "version": "1.47.1"
         }
       },
       {
@@ -78,8 +78,8 @@
         "repositoryURL": "https://github.com/vapor/fluent-sqlite-driver",
         "state": {
           "branch": null,
-          "revision": "9ca34be792979fb0f1dbd8e45b8af9f1e1440474",
-          "version": "4.1.0"
+          "revision": "d76674f9ec744c773c4126384abe6e74bea68bab",
+          "version": "4.6.0"
         }
       },
       {
@@ -132,8 +132,8 @@
         "repositoryURL": "https://github.com/binarybirds/mail-aws-driver",
         "state": {
           "branch": null,
-          "revision": "8fa1e8056a44170f2baef95fb06da609986180e9",
-          "version": "0.0.1"
+          "revision": "6a03e874b7ea88872926d84c70cc5196b1de59e9",
+          "version": "0.0.2"
         }
       },
       {
@@ -177,8 +177,8 @@
         "repositoryURL": "https://github.com/soto-project/soto.git",
         "state": {
           "branch": null,
-          "revision": "b98994beabdced18cbedbe50e947e6f2c8e0d602",
-          "version": "5.12.1"
+          "revision": "c28c3efa72e6beceae6f38f8c8fe18e7c57e3418",
+          "version": "6.8.0"
         }
       },
       {
@@ -186,8 +186,8 @@
         "repositoryURL": "https://github.com/soto-project/soto-core.git",
         "state": {
           "branch": null,
-          "revision": "3079d17f2576cff5f2a3f68865629af455c673d1",
-          "version": "5.9.3"
+          "revision": "1ddc6a9d21fa129e24886a0085e8b6091777f924",
+          "version": "6.5.1"
         }
       },
       {
@@ -195,8 +195,8 @@
         "repositoryURL": "https://github.com/vapor/sql-kit.git",
         "state": {
           "branch": null,
-          "revision": "9cc30f8cef132e91a07e36005612b37f918731fc",
-          "version": "3.16.0"
+          "revision": "b2f128cb62a3abfbb1e3b2893ff3ee69e70f4f0f",
+          "version": "3.28.0"
         }
       },
       {
@@ -204,8 +204,8 @@
         "repositoryURL": "https://github.com/vapor/sqlite-kit.git",
         "state": {
           "branch": null,
-          "revision": "0b3b12b032991de3ab5999b428a652ec29139746",
-          "version": "4.1.0"
+          "revision": "b4766692f2b3e26e4809aeb9f298c9811fdfe4ed",
+          "version": "4.4.1"
         }
       },
       {
@@ -213,8 +213,8 @@
         "repositoryURL": "https://github.com/vapor/sqlite-nio.git",
         "state": {
           "branch": null,
-          "revision": "6481dd0b01112d082dd7eb362782126e81964138",
-          "version": "1.1.0"
+          "revision": "f3164216b0161f63e609e75f9a28a6f542dd9123",
+          "version": "1.8.6"
         }
       },
       {
@@ -285,8 +285,8 @@
         "repositoryURL": "https://github.com/apple/swift-log.git",
         "state": {
           "branch": null,
-          "revision": "5d66f7ba25daf4f94100e7022febf3c75e37a6c7",
-          "version": "1.4.2"
+          "revision": "e97a6fcb1ab07462881ac165fdbb37f067e205d5",
+          "version": "1.5.4"
         }
       },
       {
