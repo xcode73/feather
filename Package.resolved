@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/swift-server/async-http-client.git",
         "state": {
           "branch": null,
-          "revision": "fc510a39cff61b849bf5cdff17eb2bd6d0777b49",
-          "version": "1.11.5"
+          "revision": "291438696abdd48d2a83b52465c176efbd94512b",
+          "version": "1.20.1"
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/vapor/async-kit.git",
         "state": {
           "branch": null,
-          "revision": "eab9edff78e8ace20bd7cb6e792ab46d54f59ab9",
-          "version": "1.18.0"
+          "revision": "7ece208cd401687641c88367a00e3ea2b04311f1",
+          "version": "1.19.0"
         }
       },
       {
@@ -24,8 +24,8 @@
         "repositoryURL": "https://github.com/vapor/console-kit.git",
         "state": {
           "branch": null,
-          "revision": "a7e67a1719933318b5ab7eaaed355cde020465b1",
-          "version": "4.5.0"
+          "revision": "a31f44ebfbd15a2cc0fda705279676773ac16355",
+          "version": "4.14.1"
         }
       },
       {
@@ -33,7 +33,7 @@
         "repositoryURL": "https://github.com/xcode73/feather-core",
         "state": {
           "branch": "test-dev",
-          "revision": "50832eed8c1bfb9d8c1daf93d3ca1dbe2c2aacd5",
+          "revision": "23eb966e9f7f712c237bf771a9885e80a289422d",
           "version": null
         }
       },
@@ -42,7 +42,7 @@
         "repositoryURL": "https://github.com/xcode73/feather-icons",
         "state": {
           "branch": "test-dev",
-          "revision": "3f9749e17afaa0c1968be6ad72e04e6c7ca26a87",
+          "revision": "f4ffeb318ed5e757b8673b769fd7d1598bf85386",
           "version": null
         }
       },
@@ -51,7 +51,7 @@
         "repositoryURL": "https://github.com/xcode73/feather-objects",
         "state": {
           "branch": "test-dev",
-          "revision": "169386ce3bf664fa768186467e4aec1caaee0fcf",
+          "revision": "64a250c79f079944608c28d70c462093212e2456",
           "version": null
         }
       },
@@ -60,8 +60,8 @@
         "repositoryURL": "https://github.com/vapor/fluent",
         "state": {
           "branch": null,
-          "revision": "26c446002f03c5ab34b20d86873014ef3d92d0da",
-          "version": "4.5.0"
+          "revision": "a586a5d4164f23a0ee4e02e1f467b9bbef0c9f1c",
+          "version": "4.9.0"
         }
       },
       {
@@ -150,8 +150,8 @@
         "repositoryURL": "https://github.com/vapor/multipart-kit.git",
         "state": {
           "branch": null,
-          "revision": "1adfd69df2da08f7931d4281b257475e32c96734",
-          "version": "4.5.4"
+          "revision": "12ee56f25bd3fc4c2d09c2aa16e69de61dc786e8",
+          "version": "4.6.0"
         }
       },
       {
@@ -168,8 +168,8 @@
         "repositoryURL": "https://github.com/vapor/routing-kit.git",
         "state": {
           "branch": null,
-          "revision": "611bc45c5dfb1f54b84d99b89d1f72191fb6b71b",
-          "version": "4.7.2"
+          "revision": "2a92a7eac411a82fb3a03731be5e76773ebe1b3e",
+          "version": "4.9.0"
         }
       },
       {
@@ -186,8 +186,8 @@
         "repositoryURL": "https://github.com/soto-project/soto-core.git",
         "state": {
           "branch": null,
-          "revision": "1ddc6a9d21fa129e24886a0085e8b6091777f924",
-          "version": "6.5.1"
+          "revision": "3ed66ec536bc372360d7e3ec39a5e8b1870747ea",
+          "version": "6.5.2"
         }
       },
       {
@@ -204,8 +204,8 @@
         "repositoryURL": "https://github.com/vapor/sqlite-kit.git",
         "state": {
           "branch": null,
-          "revision": "b4766692f2b3e26e4809aeb9f298c9811fdfe4ed",
-          "version": "4.4.1"
+          "revision": "e9fd69b54b04acf9ea94d3ba174195d20a07370f",
+          "version": "4.4.2"
         }
       },
       {
@@ -236,15 +236,6 @@
         }
       },
       {
-        "package": "swift-backtrace",
-        "repositoryURL": "https://github.com/swift-server/swift-backtrace.git",
-        "state": {
-          "branch": null,
-          "revision": "80746bdd0ac8a7d83aad5d89dac3cbf15de652e6",
-          "version": "1.3.4"
-        }
-      },
-      {
         "package": "swift-collections",
         "repositoryURL": "https://github.com/apple/swift-collections.git",
         "state": {
@@ -258,8 +249,8 @@
         "repositoryURL": "https://github.com/apple/swift-crypto.git",
         "state": {
           "branch": null,
-          "revision": "60f13f60c4d093691934dc6cfdf5f508ada1f894",
-          "version": "2.6.0"
+          "revision": "cc76b894169a3c86b71bac10c78a4db6beb7a9ad",
+          "version": "3.2.0"
         }
       },
       {
@@ -330,8 +321,8 @@
         "repositoryURL": "https://github.com/apple/swift-nio-ssl.git",
         "state": {
           "branch": null,
-          "revision": "0265283d3539ced108b9b8287eb3328c9d85acdc",
-          "version": "2.21.0"
+          "revision": "7c381eb6083542b124a6c18fae742f55001dc2b5",
+          "version": "2.26.0"
         }
       },
       {
@@ -339,8 +330,8 @@
         "repositoryURL": "https://github.com/apple/swift-nio-transport-services.git",
         "state": {
           "branch": null,
-          "revision": "4e02d9cf35cabfb538c96613272fb027dd0c8692",
-          "version": "1.13.1"
+          "revision": "6cbe0ed2b394f21ab0d46b9f0c50c6be964968ce",
+          "version": "1.20.1"
         }
       },
       {
@@ -366,7 +357,7 @@
         "repositoryURL": "https://github.com/xcode73/user-module",
         "state": {
           "branch": "test-dev",
-          "revision": "f4ed2392488c0b74d4279943f84afa4fe533b675",
+          "revision": "99cac4ed4a47ceafd8349ce0bc97286ac11dee7b",
           "version": null
         }
       },
@@ -375,7 +366,7 @@
         "repositoryURL": "https://github.com/xcode73/user-objects",
         "state": {
           "branch": "test-dev",
-          "revision": "8923d61752a93e26b25e421c3df6daf31a6d8ba6",
+          "revision": "04d7e4f4f0350fa9ad48a19c84f9436fea0b2fe4",
           "version": null
         }
       },
@@ -384,8 +375,8 @@
         "repositoryURL": "https://github.com/vapor/vapor",
         "state": {
           "branch": null,
-          "revision": "1baf62327cc55f55a0767c3a9414dec8ebfdff96",
-          "version": "4.77.1"
+          "revision": "9da9d14f43bc1b32b384f0b4eb231b8a5a851dee",
+          "version": "4.92.3"
         }
       },
       {
@@ -393,7 +384,7 @@
         "repositoryURL": "https://github.com/xcode73/web-module",
         "state": {
           "branch": "test-dev",
-          "revision": "7f3fd2cdeff9b0b0088f050b182a8497111c6560",
+          "revision": "b5d8530997e5f630ed84f7b1cb9cba90cd3dc2c3",
           "version": null
         }
       },
@@ -402,7 +393,7 @@
         "repositoryURL": "https://github.com/xcode73/web-objects",
         "state": {
           "branch": "test-dev",
-          "revision": "369be275e8525a212c439c7ec1571eb43435ca75",
+          "revision": "4735fefff290e9d35b62763cc21cba8f836b5725",
           "version": null
         }
       },
@@ -411,8 +402,8 @@
         "repositoryURL": "https://github.com/vapor/websocket-kit.git",
         "state": {
           "branch": null,
-          "revision": "2b8885974e8d9f522e787805000553f4f7cce8a0",
-          "version": "2.7.0"
+          "revision": "53fe0639a98903858d0196b699720decb42aee7b",
+          "version": "2.14.0"
         }
       }
     ]
