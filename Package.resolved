@@ -51,7 +51,7 @@
         "repositoryURL": "https://github.com/xcode73/feather-objects",
         "state": {
           "branch": "test-dev",
-          "revision": "64a250c79f079944608c28d70c462093212e2456",
+          "revision": "1c4e7738f059d64e0008e15e5c2da9ecdfba4065",
           "version": null
         }
       },
@@ -159,7 +159,7 @@
         "repositoryURL": "https://github.com/xcode73/redirect-module",
         "state": {
           "branch": "test-dev",
-          "revision": "f62d2e3237d68ede5e6ac76b4577271381945182",
+          "revision": "16f852baab69573cfe5c6b39da14c892bd5bfd59",
           "version": null
         }
       },
@@ -168,7 +168,7 @@
         "repositoryURL": "https://github.com/xcode73/redirect-objects",
         "state": {
           "branch": "test-dev",
-          "revision": "6a77d5b9883682d4289577bf05290a4968abf609",
+          "revision": "28cb40fe54e53a5500c48144c13000228f814b42",
           "version": null
         }
       },
@@ -384,8 +384,8 @@
         "repositoryURL": "https://github.com/vapor/vapor",
         "state": {
           "branch": null,
-          "revision": "9da9d14f43bc1b32b384f0b4eb231b8a5a851dee",
-          "version": "4.92.3"
+          "revision": "3a7da193a2937472b252b8db210897e7abf37b47",
+          "version": "4.92.4"
         }
       },
       {
