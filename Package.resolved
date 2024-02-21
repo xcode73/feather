@@ -159,7 +159,16 @@
         "repositoryURL": "https://github.com/xcode73/redirect-module",
         "state": {
           "branch": "test-dev",
-          "revision": "dd1844d8fbfc2dde3d6ac3c4296fd327b84a39cc",
+          "revision": "f62d2e3237d68ede5e6ac76b4577271381945182",
+          "version": null
+        }
+      },
+      {
+        "package": "redirect-objects",
+        "repositoryURL": "https://github.com/xcode73/redirect-objects",
+        "state": {
+          "branch": "test-dev",
+          "revision": "6a77d5b9883682d4289577bf05290a4968abf609",
           "version": null
         }
       },
