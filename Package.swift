@@ -16,7 +16,7 @@ let package = Package(
         .package(url: "https://github.com/xcode73/redirect-module.git", branch: "test-dev"),
         .package(url: "https://github.com/vapor/fluent-sqlite-driver.git", from: "4.6.0"),
         .package(url: "https://github.com/binarybirds/liquid-local-driver.git", from: "1.3.2"),
-        .package(url: "https://github.com/binarybirds/mail-aws-driver.git", from: "0.0.2")
+//        .package(url: "https://github.com/binarybirds/mail-aws-driver.git", from: "0.0.1")
     ],
     targets: [
         .executableTarget(name: "App", dependencies: [
@@ -26,7 +26,7 @@ let package = Package(
             .product(name: "RedirectModule", package: "redirect-module"),
             .product(name: "FluentSQLiteDriver", package: "fluent-sqlite-driver"),
             .product(name: "LiquidLocalDriver", package: "liquid-local-driver"),
-            .product(name: "MailAwsDriver", package: "mail-aws-driver")
+//            .product(name: "MailAwsDriver", package: "mail-aws-driver")
         ]),
     ],
     swiftLanguageVersions: [.v5]

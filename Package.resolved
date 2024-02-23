@@ -82,15 +82,6 @@
       }
     },
     {
-      "identity" : "jmespath.swift",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/adam-fowler/jmespath.swift.git",
-      "state" : {
-        "revision" : "4513d319c4aaa6c3b2ac18e1e6566a803515ad91",
-        "version" : "1.0.2"
-      }
-    },
-    {
       "identity" : "liquid",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/binarybirds/liquid",
@@ -123,15 +114,6 @@
       "location" : "https://github.com/binarybirds/mail",
       "state" : {
         "revision" : "f1dc8be5ea3b80952fb000b32d69609961b0b3bf",
-        "version" : "0.0.2"
-      }
-    },
-    {
-      "identity" : "mail-aws-driver",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/binarybirds/mail-aws-driver",
-      "state" : {
-        "revision" : "6a03e874b7ea88872926d84c70cc5196b1de59e9",
         "version" : "0.0.2"
       }
     },
@@ -178,24 +160,6 @@
       "state" : {
         "revision" : "2a92a7eac411a82fb3a03731be5e76773ebe1b3e",
         "version" : "4.9.0"
-      }
-    },
-    {
-      "identity" : "soto",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/soto-project/soto.git",
-      "state" : {
-        "revision" : "c28c3efa72e6beceae6f38f8c8fe18e7c57e3418",
-        "version" : "6.8.0"
-      }
-    },
-    {
-      "identity" : "soto-core",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/soto-project/soto-core.git",
-      "state" : {
-        "revision" : "3ed66ec536bc372360d7e3ec39a5e8b1870747ea",
-        "version" : "6.5.2"
       }
     },
     {
