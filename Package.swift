@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
@@ -10,15 +10,10 @@ let package = Package(
         .executable(name: "App", targets: ["App"])
     ],
     dependencies: [
-//        .package(path: "../feather-core"),
-//        .package(path: "../user-module"),
-//        .package(path: "../web-module"),
-//        .package(path: "../redirect-module"),
-
-        .package(url: "https://github.com/xcode73/feather-core", .branch("test-dev")),
-        .package(url: "https://github.com/xcode73/user-module", .branch("test-dev")),
-        .package(url: "https://github.com/xcode73/web-module", .branch("test-dev")),
-        .package(url: "https://github.com/xcode73/redirect-module", .branch("test-dev")),
+        .package(url: "https://github.com/xcode73/feather-core", branch: "test-dev"),
+        .package(url: "https://github.com/xcode73/user-module", branch: "test-dev"),
+        .package(url: "https://github.com/xcode73/web-module", branch: "test-dev"),
+        .package(url: "https://github.com/xcode73/redirect-module", branch: "test-dev"),
 
         .package(url: "https://github.com/vapor/fluent-sqlite-driver", from: "4.6.0"),
         .package(url: "https://github.com/binarybirds/liquid-local-driver", from: "1.3.2"),
@@ -35,5 +30,6 @@ let package = Package(
             .product(name: "LiquidLocalDriver", package: "liquid-local-driver"),
             .product(name: "MailAwsDriver", package: "mail-aws-driver"),
         ]),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
