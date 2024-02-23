@@ -30,19 +30,19 @@
     {
       "identity" : "feather-core",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/xcode73/feather-core",
+      "location" : "https://github.com/xcode73/feather-core.git",
       "state" : {
         "branch" : "test-dev",
-        "revision" : "23eb966e9f7f712c237bf771a9885e80a289422d"
+        "revision" : "bc890ea3e62dda774957fcbc967177768e602d69"
       }
     },
     {
       "identity" : "feather-icons",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/xcode73/feather-icons",
+      "location" : "https://github.com/xcode73/feather-icons.git",
       "state" : {
         "branch" : "test-dev",
-        "revision" : "f4ffeb318ed5e757b8673b769fd7d1598bf85386"
+        "revision" : "2cd078e57088a89dcc375208f8e737dbf4c791bd"
       }
     },
     {
@@ -51,7 +51,7 @@
       "location" : "https://github.com/xcode73/feather-objects",
       "state" : {
         "branch" : "test-dev",
-        "revision" : "1c4e7738f059d64e0008e15e5c2da9ecdfba4065"
+        "revision" : "7ea11be04bb31c4c9624f14b55baecdb203427cf"
       }
     },
     {
@@ -156,19 +156,19 @@
     {
       "identity" : "redirect-module",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/xcode73/redirect-module",
+      "location" : "https://github.com/xcode73/redirect-module.git",
       "state" : {
         "branch" : "test-dev",
-        "revision" : "16f852baab69573cfe5c6b39da14c892bd5bfd59"
+        "revision" : "61c3c31b8462fa06d7c5ecb5299e9e3870de768e"
       }
     },
     {
       "identity" : "redirect-objects",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/xcode73/redirect-objects",
+      "location" : "https://github.com/xcode73/redirect-objects.git",
       "state" : {
         "branch" : "test-dev",
-        "revision" : "28cb40fe54e53a5500c48144c13000228f814b42"
+        "revision" : "c10ebc0f53d521189f826d01aa9b3d15ff229c1a"
       }
     },
     {
@@ -363,19 +363,19 @@
     {
       "identity" : "user-module",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/xcode73/user-module",
+      "location" : "https://github.com/xcode73/user-module.git",
       "state" : {
         "branch" : "test-dev",
-        "revision" : "99cac4ed4a47ceafd8349ce0bc97286ac11dee7b"
+        "revision" : "6bff8470b7e3f2fe84cb618132a5d77aba0a6047"
       }
     },
     {
       "identity" : "user-objects",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/xcode73/user-objects",
+      "location" : "https://github.com/xcode73/user-objects.git",
       "state" : {
         "branch" : "test-dev",
-        "revision" : "04d7e4f4f0350fa9ad48a19c84f9436fea0b2fe4"
+        "revision" : "bf3c53db2376b58acc28b0ee0e170f1650341b8b"
       }
     },
     {
@@ -390,19 +390,19 @@
     {
       "identity" : "web-module",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/xcode73/web-module",
+      "location" : "https://github.com/xcode73/web-module.git",
       "state" : {
         "branch" : "test-dev",
-        "revision" : "b5d8530997e5f630ed84f7b1cb9cba90cd3dc2c3"
+        "revision" : "8d8f466bea5e71b131d205b06aacf78077838b78"
       }
     },
     {
       "identity" : "web-objects",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/xcode73/web-objects",
+      "location" : "https://github.com/xcode73/web-objects.git",
       "state" : {
         "branch" : "test-dev",
-        "revision" : "4735fefff290e9d35b62763cc21cba8f836b5725"
+        "revision" : "d30309d5630fc38dab50126ecfe129e6ddc2cbc7"
       }
     },
     {
