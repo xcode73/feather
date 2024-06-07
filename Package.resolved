@@ -28,33 +28,6 @@
       }
     },
     {
-      "identity" : "feather-core",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/xcode73/feather-core.git",
-      "state" : {
-        "branch" : "test-dev",
-        "revision" : "bc890ea3e62dda774957fcbc967177768e602d69"
-      }
-    },
-    {
-      "identity" : "feather-icons",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/xcode73/feather-icons.git",
-      "state" : {
-        "branch" : "test-dev",
-        "revision" : "2cd078e57088a89dcc375208f8e737dbf4c791bd"
-      }
-    },
-    {
-      "identity" : "feather-objects",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/xcode73/feather-objects.git",
-      "state" : {
-        "branch" : "test-dev",
-        "revision" : "7ea11be04bb31c4c9624f14b55baecdb203427cf"
-      }
-    },
-    {
       "identity" : "fluent",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/vapor/fluent",
@@ -79,6 +52,15 @@
       "state" : {
         "revision" : "d76674f9ec744c773c4126384abe6e74bea68bab",
         "version" : "4.6.0"
+      }
+    },
+    {
+      "identity" : "jmespath.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adam-fowler/jmespath.swift.git",
+      "state" : {
+        "revision" : "4513d319c4aaa6c3b2ac18e1e6566a803515ad91",
+        "version" : "1.0.2"
       }
     },
     {
@@ -118,6 +100,15 @@
       }
     },
     {
+      "identity" : "mail-aws-driver",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/binarybirds/mail-aws-driver.git",
+      "state" : {
+        "revision" : "6a03e874b7ea88872926d84c70cc5196b1de59e9",
+        "version" : "0.0.2"
+      }
+    },
+    {
       "identity" : "mail-kit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/binarybirds/mail-kit.git",
@@ -136,30 +127,30 @@
       }
     },
     {
-      "identity" : "redirect-module",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/xcode73/redirect-module.git",
-      "state" : {
-        "branch" : "test-dev",
-        "revision" : "fa7218626f09b8c2a4668217384b37017fc27426"
-      }
-    },
-    {
-      "identity" : "redirect-objects",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/xcode73/redirect-objects.git",
-      "state" : {
-        "branch" : "test-dev",
-        "revision" : "c10ebc0f53d521189f826d01aa9b3d15ff229c1a"
-      }
-    },
-    {
       "identity" : "routing-kit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/vapor/routing-kit.git",
       "state" : {
         "revision" : "2a92a7eac411a82fb3a03731be5e76773ebe1b3e",
         "version" : "4.9.0"
+      }
+    },
+    {
+      "identity" : "soto",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/soto-project/soto.git",
+      "state" : {
+        "revision" : "c28c3efa72e6beceae6f38f8c8fe18e7c57e3418",
+        "version" : "6.8.0"
+      }
+    },
+    {
+      "identity" : "soto-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/soto-project/soto-core.git",
+      "state" : {
+        "revision" : "3ed66ec536bc372360d7e3ec39a5e8b1870747ea",
+        "version" : "6.5.2"
       }
     },
     {
@@ -325,48 +316,12 @@
       }
     },
     {
-      "identity" : "user-module",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/xcode73/user-module.git",
-      "state" : {
-        "branch" : "test-dev",
-        "revision" : "6bff8470b7e3f2fe84cb618132a5d77aba0a6047"
-      }
-    },
-    {
-      "identity" : "user-objects",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/xcode73/user-objects.git",
-      "state" : {
-        "branch" : "test-dev",
-        "revision" : "bf3c53db2376b58acc28b0ee0e170f1650341b8b"
-      }
-    },
-    {
       "identity" : "vapor",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/vapor/vapor",
       "state" : {
         "revision" : "3a7da193a2937472b252b8db210897e7abf37b47",
         "version" : "4.92.4"
-      }
-    },
-    {
-      "identity" : "web-module",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/xcode73/web-module.git",
-      "state" : {
-        "branch" : "test-dev",
-        "revision" : "8d8f466bea5e71b131d205b06aacf78077838b78"
-      }
-    },
-    {
-      "identity" : "web-objects",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/xcode73/web-objects.git",
-      "state" : {
-        "branch" : "test-dev",
-        "revision" : "d30309d5630fc38dab50126ecfe129e6ddc2cbc7"
       }
     },
     {

@@ -1,6 +1,6 @@
 //
-//  File.swift
-//  
+//  main.swift
+//
 //
 //  Created by Tibor Bodecs on 2022. 02. 23..
 //
@@ -11,7 +11,7 @@ import Vapor
 import Liquid
 import LiquidLocalDriver
 import Mail
-//import MailAwsDriver
+import MailAwsDriver
 import Feather
 
 import WebModule
@@ -28,7 +28,7 @@ public func configure(_ app: Application) throws {
                                 publicPath: app.feather.paths.public.path,
                                 workDirectory: Feather.Directories.assets), as: .local)
 
-//    app.mailProviders.use(.ses(credentialProvider: .default, region: .eucentral1), as: .ses)
+    app.mailProviders.use(.ses(credentialProvider: .default, region: .eucentral1), as: .ses)
 
     try app.feather.start([
         UserModuleFactory.build(),
