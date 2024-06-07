@@ -1,4 +1,4 @@
-// swift-tools-version:5.7
+// swift-tools-version:5.9
 import PackageDescription
 import Foundation
 
@@ -34,6 +34,8 @@ let package = Package(
                 .product(name: "RedirectModule", package: "redirect-module"),
                 .product(name: "SwiftyModule", package: "swifty-module"),
                 .product(name: "MarkdownModule", package: "markdown-module")
-            ]),
+            ],
+            swiftSettings: [.enableExperimentalFeature("StrictConcurrency=complete")]
+        ),
     ]
 )
