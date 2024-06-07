@@ -40,10 +40,10 @@ uninstall:
 	rm ./feather
 
 # =====================================================================
-# 	dev
+# 	main
 # =====================================================================
 
-dev:
+main:
 	cd .. && \
 	git clone --branch main https://github.com/xcode73/feather-core.git && \
 	git clone --branch main https://github.com/xcode73/analytics-module.git && \

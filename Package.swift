@@ -22,7 +22,7 @@ let package = Package(
         .package(url: "https://github.com/xcode73/swifty-module.git", branch: "main")
     ],
     targets: [
-        .target(
+        .executableTarget(
             name: "Feather",
             dependencies: [
                 .product(name: "FeatherCore", package: "feather-core"),
@@ -34,6 +34,13 @@ let package = Package(
                 .product(name: "RedirectModule", package: "redirect-module"),
                 .product(name: "SwiftyModule", package: "swifty-module"),
                 .product(name: "MarkdownModule", package: "markdown-module")
-            ]),
+            ],
+            exclude: [
+                "Modules/README.md",
+            ],
+            swiftSettings: [
+                .unsafeFlags(["-cross-module-optimization"], .when(configuration: .release))
+            ]
+        ),
     ]
 )
