@@ -4,8 +4,8 @@ import PackageDescription
 let isLocalDevMode = true
 
 var dependencies: [Package.Dependency] = [
-    .package(url: "git@github.com:vapor/fluent-sqlite-driver.git", from: "4.7.0"),
-    .package(url: "git@github.com:BinaryBirds/liquid-local-driver.git", from: "1.3.0")
+    .package(url: "https://github.com/vapor/fluent-sqlite-driver.git", from: "4.7.0"),
+    .package(url: "https://github.com/BinaryBirds/liquid-local-driver.git", from: "1.3.2")
 ]
 
 if isLocalDevMode {
@@ -21,13 +21,13 @@ if isLocalDevMode {
 }
 else {
     dependencies += [
-        .package(url: "git@github.com:xcode73/feather-core.git", branch: "main"),
-        .package(url: "git@github.com:xcode73/analytics-module.git", branch: "main"),
-        .package(url: "git@github.com:xcode73/aggregator-module.git", branch: "main"),
-        .package(url: "git@github.com:xcode73/blog-module.git", branch: "main"),
-        .package(url: "git@github.com:xcode73/markdown-module.git", branch: "main"),
-        .package(url: "git@github.com:xcode73/redirect-module.git", branch: "main"),
-        .package(url: "git@github.com:xcode73/swifty-module.git", branch: "main")
+        .package(url: "https://github.com/xcode73/feather-core.git", branch: "main"),
+        .package(url: "https://github.com/xcode73/analytics-module.git", branch: "main"),
+        .package(url: "https://github.com/xcode73/aggregator-module.git", branch: "main"),
+        .package(url: "https://github.com/xcode73/blog-module.git", branch: "main"),
+        .package(url: "https://github.com/xcode73/markdown-module.git", branch: "main"),
+        .package(url: "https://github.com/xcode73/redirect-module.git", branch: "main"),
+        .package(url: "https://github.com/xcode73/swifty-module.git", branch: "main")
     ]
 }
 
