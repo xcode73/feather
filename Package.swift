@@ -1,11 +1,11 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.9
 import PackageDescription
 
-let isLocalDevMode = false
+let isLocalDevMode = true
 
 var dependencies: [Package.Dependency] = [
-    .package(url: "https://github.com/vapor/fluent-sqlite-driver", from: "4.0.0"),
-    .package(url: "https://github.com/binarybirds/liquid-local-driver", from: "1.3.0"),
+    .package(url: "git@github.com:vapor/fluent-sqlite-driver.git", from: "4.7.0"),
+    .package(url: "git@github.com:BinaryBirds/liquid-local-driver.git", from: "1.3.0")
 ]
 
 if isLocalDevMode {
@@ -16,18 +16,18 @@ if isLocalDevMode {
         .package(path: "../blog-module"),
         .package(path: "../markdown-module"),
         .package(path: "../redirect-module"),
-        .package(path: "../swifty-module"),
+        .package(path: "../swifty-module")
     ]
 }
 else {
     dependencies += [
-        .package(url: "https://github.com/feathercms/feather-core", .branch("dev")),
-        .package(url: "https://github.com/feathercms/analytics-module", .branch("dev")),
-        .package(url: "https://github.com/feathercms/aggregator-module", .branch("dev")),
-        .package(url: "https://github.com/feathercms/blog-module", .branch("dev")),
-        .package(url: "https://github.com/feathercms/markdown-module", .branch("dev")),
-        .package(url: "https://github.com/feathercms/redirect-module", .branch("dev")),
-        .package(url: "https://github.com/feathercms/swifty-module", .branch("dev")),
+        .package(url: "git@github.com:xcode73/feather-core.git", branch: "main"),
+        .package(url: "git@github.com:xcode73/analytics-module.git", branch: "main"),
+        .package(url: "git@github.com:xcode73/aggregator-module.git", branch: "main"),
+        .package(url: "git@github.com:xcode73/blog-module.git", branch: "main"),
+        .package(url: "git@github.com:xcode73/markdown-module.git", branch: "main"),
+        .package(url: "git@github.com:xcode73/redirect-module.git", branch: "main"),
+        .package(url: "git@github.com:xcode73/swifty-module.git", branch: "main")
     ]
 }
 
